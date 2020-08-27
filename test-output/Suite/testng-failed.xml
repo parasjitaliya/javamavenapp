@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="DailyScriptsAPIs_Bata.SearchMember01">
+        <methods>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- DailyScriptsAPIs_Bata.SearchMember01 -->
+      <class name="DailyScriptsAPIs_Bata.AssignTier">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- DailyScriptsAPIs_Bata.AssignTier -->
+      <class name="DailyScriptsAPIs_Bata.RegisterAccount01">
+        <methods>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- DailyScriptsAPIs_Bata.RegisterAccount01 -->
+      <class name="DailyScriptsAPIs_Bata.SaveChildrenDetails01">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- DailyScriptsAPIs_Bata.SaveChildrenDetails01 -->
+      <class name="DailyScriptsAPIs_Bata.FlatEasyPointsRedemption01">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- DailyScriptsAPIs_Bata.FlatEasyPointsRedemption01 -->
+      <class name="DailyScriptsAPIs_Bata.CreateEmployee01">
+        <methods>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- DailyScriptsAPIs_Bata.CreateEmployee01 -->
+      <class name="DailyScriptsAPIs_Bata.EasyPointsAccrual01">
+        <methods>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- DailyScriptsAPIs_Bata.EasyPointsAccrual01 -->
+      <class name="DailyScriptsAPIs_Bata.GenerateReferralCode01">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- DailyScriptsAPIs_Bata.GenerateReferralCode01 -->
+      <class name="DailyScriptsAPIs_Bata.FlatEasyPointsAccrual01">
+        <methods>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- DailyScriptsAPIs_Bata.FlatEasyPointsAccrual01 -->
+      <class name="DailyScriptsAPIs_Bata.EasyPointsAccrualEOSS01">
+        <methods>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- DailyScriptsAPIs_Bata.EasyPointsAccrualEOSS01 -->
+      <class name="DailyScriptsAPIs_Bata.GetCustomerTransactionDetails">
+        <methods>
+          <include name="wsGetCustomerTransactionDetails"/>
+        </methods>
+      </class> <!-- DailyScriptsAPIs_Bata.GetCustomerTransactionDetails -->
+      <class name="DailyScriptsAPIs_Bata.GetCustomerReferalCode01">
+        <methods>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- DailyScriptsAPIs_Bata.GetCustomerReferalCode01 -->
+      <class name="DailyScriptsAPIs_Bata.MergeGV">
+        <methods>
+          <include name="MergeGv"/>
+        </methods>
+      </class> <!-- DailyScriptsAPIs_Bata.MergeGV -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

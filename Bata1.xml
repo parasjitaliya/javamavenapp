@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Suite">
+  <test name="Test">
+    <classes>
+          <class name="DailyScriptsAPIs_Bata.AssignTier"/>
+          <class name="DailyScriptsAPIs_Bata.RegisterAccount01"/>
+          <class name="DailyScriptsAPIs_Bata.SearchMember01"/>
+          <class name="DailyScriptsAPIs_Bata.EasyPointsAccrualEOSS01"/>
+          <class name="DailyScriptsAPIs_Bata.EasyPointsAccrual01"/>
+          <class name="DailyScriptsAPIs_Bata.FlatEasyPointsAccrual01"/>
+          <class name="DailyScriptsAPIs_Bata.FlatEasyPointsRedemption01"/>
+          <class name="DailyScriptsAPIs_Bata.CreateEmployee01"/>
+          <class name="DailyScriptsAPIs_Bata.GetCustomerTransactionDetails"/>
+          <class name="DailyScriptsAPIs_Bata.GenerateReferralCode01"/>
+          <class name="DailyScriptsAPIs_Bata.GetCustomerReferalCode01"/>
+          <class name="DailyScriptsAPIs_Bata.SaveChildrenDetails01"/>
+          <class name="DailyScriptsAPIs_Bata.MergeGV"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

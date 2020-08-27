@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Suite">
+  <test name="Test">
+    <classes>
+          <class name="DailyScriptsAPIs_Demoloyalty.CheckForEasyPointsRedemption01"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.ConfirmOTP01"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.ResendOTP01"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.ConfirmEasyPointsRedemption01"/>               
+          <class name="DailyScriptsAPIs_Demoloyalty.GenerateOTP"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.ValidateOTP"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.CustomerAvailablePoints01"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.SaveSKUBillDetails"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.UpdateBillNo01"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.CheckForEasyPointsRedemption02"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.ReleaseRedemptionPoints01"/>         
+          <class name="DailyScriptsAPIs_Demoloyalty.GetTierDetails"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

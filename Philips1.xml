@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Suite">
+  <test name="Test">
+    <classes>
+          <class name="DailyScriptsAPIs_Demoloyalty.AssignTier"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.RegisterAccount01"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.SearchMember01"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.EasyPointsAccrualEOSS01"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.EasyPointsAccrual01"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.FlatEasyPointsAccrual01"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.FlatEasyPointsRedemption01"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.CreateEmployee01"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.GetCustomerTransactionDetails"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.GenerateReferralCode01"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.GetCustomerReferalCode01"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.SaveChildrenDetails01"/>
+          <class name="DailyScriptsAPIs_Demoloyalty.MergeGV"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

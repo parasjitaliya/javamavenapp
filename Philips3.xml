@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Suite">
+  <test name="Test">
+    <classes>
+            <class name="DailyScriptsAPIs_Demoloyalty.IssueCoupon01"/>
+            <class name="DailyScriptsAPIs_Demoloyalty.RedeemCoupon01"/>
+            <class name="DailyScriptsAPIs_Demoloyalty.UnBlockCoupon"/>
+            <class name="DailyScriptsAPIs_Demoloyalty.RedeemCoupon02"/>
+            <class name="DailyScriptsAPIs_Demoloyalty.CouponOTP"/>         
+            <class name="DailyScriptsAPIs_Demoloyalty.UseCoupon01"/>
+            <class name="DailyScriptsAPIs_Demoloyalty.CheckCouponAvailability01"/>
+            <class name="DailyScriptsAPIs_Demoloyalty.GetAvailableCoupon01"/>
+            <class name="DailyScriptsAPIs_Demoloyalty.UpdateCouponStatus01"/>
+            <class name="DailyScriptsAPIs_Demoloyalty.IssueGV01"/>
+            <class name="DailyScriptsAPIs_Demoloyalty.RedeemGV01"/>
+            <class name="DailyScriptsAPIs_Demoloyalty.UnblockGV"/>
+            <class name="DailyScriptsAPIs_Demoloyalty.RedeemGV02"/>
+            <class name="DailyScriptsAPIs_Demoloyalty.GvOTP"/>                
+            <class name="DailyScriptsAPIs_Demoloyalty.UseGV01"/>
+            <class name="DailyScriptsAPIs_Demoloyalty.CheckGVAvailability01"/>   
+            <class name="DailyScriptsAPIs_Demoloyalty.GetAvailableGVS01"/>
+            <class name="DailyScriptsAPIs_Demoloyalty.RollBackGV"/>
+            <class name="DailyScriptsAPIs_Demoloyalty.UpdateGVStatus01"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

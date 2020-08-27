@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Suite">
+  <test name="Test">
+    <classes>
+            <class name="DailyScriptsAPIs_Bata.IssueCoupon01"/>
+            <class name="DailyScriptsAPIs_Bata.RedeemCoupon01"/>
+            <class name="DailyScriptsAPIs_Bata.UnBlockCoupon"/>
+            <class name="DailyScriptsAPIs_Bata.RedeemCoupon02"/>
+            <class name="DailyScriptsAPIs_Bata.CouponOTP"/>         
+            <class name="DailyScriptsAPIs_Bata.UseCoupon01"/>
+            <class name="DailyScriptsAPIs_Bata.CheckCouponAvailability01"/>
+            <class name="DailyScriptsAPIs_Bata.GetAvailableCoupon01"/>
+            <class name="DailyScriptsAPIs_Bata.UpdateCouponStatus01"/>
+            <class name="DailyScriptsAPIs_Bata.IssueGV01"/>
+            <class name="DailyScriptsAPIs_Bata.RedeemGV01"/>
+            <class name="DailyScriptsAPIs_Bata.UnblockGV"/>
+            <class name="DailyScriptsAPIs_Bata.RedeemGV02"/>
+            <class name="DailyScriptsAPIs_Bata.GvOTP"/>                
+            <class name="DailyScriptsAPIs_Bata.UseGV01"/>
+            <class name="DailyScriptsAPIs_Bata.RollBackGV"/>
+            <class name="DailyScriptsAPIs_Bata.UpdateGVStatus01"/>
+            <class name="DailyScriptsAPIs_Bata.CheckGVAvailability01"/>   
+            <class name="DailyScriptsAPIs_Bata.GetAvailableGVS01"/>          
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Suite">
+  <test name="Test">
+    <classes>
+          <class name="DailyScriptsAPIs_Bata.CheckForEasyPointsRedemption01"/>
+          <class name="DailyScriptsAPIs_Bata.ConfirmOTP01"/>
+          <class name="DailyScriptsAPIs_Bata.ResendOTP01"/> 
+          <class name="DailyScriptsAPIs_Bata.ConfirmEasyPointsRedemption01"/>      
+          <class name="DailyScriptsAPIs_Bata.GenerateOTP"/>
+          <class name="DailyScriptsAPIs_Bata.ValidateOTP"/>
+          <class name="DailyScriptsAPIs_Bata.CustomerAvailablePoints01"/>
+          <class name="DailyScriptsAPIs_Bata.SaveSKUBillDetails"/>
+          <class name="DailyScriptsAPIs_Bata.UpdateBillNo01"/>
+          <class name="DailyScriptsAPIs_Bata.CheckForEasyPointsRedemption02"/>
+          <class name="DailyScriptsAPIs_Bata.ReleaseRedemptionPoints01"/>         
+          <class name="DailyScriptsAPIs_Bata.GetTierDetails"/>  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

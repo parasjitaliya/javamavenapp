@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Suite">
+  <test name="Test_Lpaasdemo">
+    <classes>
+          <class name="DailyScriptsAPIs_Canon.RegisterAccount01"/>
+          <class name="DailyScriptsAPIs_Canon.SearchMember01"/>
+          <class name="DailyScriptsAPIs_Canon.EasyPointsAccrualEOSS01"/>       
+          <class name="DailyScriptsAPIs_Canon.EasyPointsAccrual01"/>
+          <class name="DailyScriptsAPIs_Canon.FlatEasyPointsAccrual01"/>
+          <class name="DailyScriptsAPIs_Canon.FlatEasyPointsRedemption01"/>
+          <class name="DailyScriptsAPIs_Canon.CreateEmployee01"/>
+          <class name="DailyScriptsAPIs_Canon.GenerateReferralCode01"/>
+          <class name="DailyScriptsAPIs_Canon.GetCustomerReferalCode01"/>
+          <class name="DailyScriptsAPIs_Canon.SaveChildrenDetails01"/>
+        <!--   <class name="DailyScriptsAPIs_Canon.MergeGV"/>    -->     
+    </classes>
+  </test> <!-- Test_Lpaasdemo -->
+</suite> <!-- Suite -->

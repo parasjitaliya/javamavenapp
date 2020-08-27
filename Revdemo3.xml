@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Suite">
+  <test name="Test">
+    <classes>
+            <class name="DailyScriptsAPIs_Revdemo.IssueCoupon01"/>
+            <class name="DailyScriptsAPIs_Revdemo.RedeemCoupon01"/>
+            <class name="DailyScriptsAPIs_Revdemo.UnBlockCoupon"/>
+            <class name="DailyScriptsAPIs_Revdemo.RedeemCoupon02"/>
+            <class name="DailyScriptsAPIs_Revdemo.CouponOTP"/>         
+            <class name="DailyScriptsAPIs_Revdemo.UseCoupon01"/>	
+            <class name="DailyScriptsAPIs_Revdemo.CheckCouponAvailability01"/>
+            <class name="DailyScriptsAPIs_Revdemo.GetAvailableCoupon01"/>
+            <class name="DailyScriptsAPIs_Revdemo.UpdateCouponStatus01"/>
+          <!--   <class name="DailyScriptsAPIs_Revdemo.IssueGV01"/>
+            <class name="DailyScriptsAPIs_Revdemo.RedeemGV01"/>
+            <class name="DailyScriptsAPIs_Revdemo.UnblockGV"/>
+            <class name="DailyScriptsAPIs_Revdemo.RedeemGV02"/>
+            <class name="DailyScriptsAPIs_Revdemo.GvOTP"/>                
+            <class name="DailyScriptsAPIs_Revdemo.UseGV01"/>
+            <class name="DailyScriptsAPIs_Revdemo.RollBackGV"/>
+            <class name="DailyScriptsAPIs_Revdemo.UpdateGVStatus01"/>
+            <class name="DailyScriptsAPIs_Revdemo.CheckGVAvailability01"/>   
+            <class name="DailyScriptsAPIs_Revdemo.GetAvailableGVS01"/> -->
+         
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

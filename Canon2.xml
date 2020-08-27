@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Suite">
+  <test name="Test">
+    <classes>
+          <class name="DailyScriptsAPIs_Canon.CheckForEasyPointsRedemption01"/>
+          <class name="DailyScriptsAPIs_Canon.ConfirmOTP01"/> 
+          <class name="DailyScriptsAPIs_Canon.ResendOTP01"/>
+          <class name="DailyScriptsAPIs_Canon.ConfirmEasyPointsRedemption01"/>                                  
+          <class name="DailyScriptsAPIs_Canon.UpdateBillNo01"/>
+          <class name="DailyScriptsAPIs_Canon.GenerateOTP"/>
+          <class name="DailyScriptsAPIs_Canon.ValidateOTP"/>
+          <class name="DailyScriptsAPIs_Canon.CustomerAvailablePoints01"/>
+          <class name="DailyScriptsAPIs_Canon.GetCustomerTransactionDetails"/>
+          <class name="DailyScriptsAPIs_Canon.SaveSKUBillDetails"/>
+          <class name="DailyScriptsAPIs_Canon.CheckForEasyPointsRedemption02"/>         
+          <class name="DailyScriptsAPIs_Canon.ReleaseRedemptionPoints01"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

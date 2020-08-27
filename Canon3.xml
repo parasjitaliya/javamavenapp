@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Suite">
+  <test name="Test">
+    <classes>
+          <class name="DailyScriptsAPIs_Canon.IssueCoupon01"/>
+            <class name="DailyScriptsAPIs_Canon.RedeemCoupon01"/>
+            <!-- <class name="DailyScriptsAPIs_Canon.UnBlockCoupon"/> 
+            <class name="DailyScriptsAPIs_Canon.RedeemCoupon02"/>                    
+            <class name="DailyScriptsAPIs_Canon.CouponOTP"/>         
+            <class name="DailyScriptsAPIs_Canon.UseCoupon01"/>
+            <class name="DailyScriptsAPIs_Canon.CheckCouponAvailability01"/>
+            <class name="DailyScriptsAPIs_Canon.GetAvailableCoupon01"/>
+            <class name="DailyScriptsAPIs_Canon.UpdateCouponStatus01"/> 
+            <class name="DailyScriptsAPIs_Canon.IssueGV01"/>
+            <class name="DailyScriptsAPIs_Canon.RedeemGV01"/>
+            <class name="DailyScriptsAPIs_Canon.UnblockGV"/>
+            <class name="DailyScriptsAPIs_Canon.RedeemGV02"/>                    
+            <class name="DailyScriptsAPIs_Canon.GvOTP"/>                
+            <class name="DailyScriptsAPIs_Canon.UseGV01"/>
+            <class name="DailyScriptsAPIs_Canon.CheckGVAvailability01"/>   
+            <class name="DailyScriptsAPIs_Canon.GetAvailableGVS01"/>
+            <class name="DailyScriptsAPIs_Canon.RollBackGV"/>
+            <class name="DailyScriptsAPIs_Canon.UpdateGVStatus01"/>        -->    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
