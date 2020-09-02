@@ -45,7 +45,7 @@ public class CouponOTP {
 		  f=new File(MasterData);
 		  wb=Workbook.getWorkbook(f);
 		  s=wb.getSheet(0);
-		  System.setProperty("Webdriver.chrome.driver","/home/harish/Harish/Jar files/chromedriver_linux64 (3)/chromedriver");
+		  System.setProperty("Webdriver.chrome.driver",utils.Constants.chromeDriverPath);
 		  driver=new ChromeDriver();
 		  for(int i=1; i< 2; i++)  {
 		  driver.get("http://bataprod.erstaging.com/apiui/");

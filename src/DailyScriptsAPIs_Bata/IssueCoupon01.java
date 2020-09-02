@@ -54,7 +54,7 @@ public class IssueCoupon01{
 	  f=new File(data);
 	  wb = Workbook.getWorkbook(f);
 	  s=wb.getSheet(0);
-	  System.setProperty("webdriver.chrome.driver", "chromedriver");
+	  System.setProperty("webdriver.chrome.driver", utils.Constants.chromeDriverPath);
 	  driver=new ChromeDriver();
 	  driver.manage().timeouts().implicitlyWait(10l, TimeUnit.SECONDS); 
 	  

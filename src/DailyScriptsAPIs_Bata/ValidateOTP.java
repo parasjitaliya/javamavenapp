@@ -46,7 +46,7 @@ public class ValidateOTP {
 		  f=new File(MasterData);
 		  wb = Workbook.getWorkbook(f);
 		  s=wb.getSheet(0);
-		  System.setProperty("webdriver.chrome.driver","/home/harish/Harish/Jar files/chromedriver_linux64 (3)/chromedriver");
+		  System.setProperty("webdriver.chrome.driver",utils.Constants.chromeDriverPath);
 		  driver=new ChromeDriver();
 		  driver.manage().timeouts().implicitlyWait(20l, TimeUnit.SECONDS); 
 		  

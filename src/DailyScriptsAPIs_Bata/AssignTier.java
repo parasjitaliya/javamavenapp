@@ -39,12 +39,12 @@ public class AssignTier {
 	      f=new File(data);
 	      wb = Workbook.getWorkbook(f);
 	      s=wb.getSheet(0);
-		  System.setProperty("webdriver.chrome.driver","/home/harish/Harish/Jar files/chromedriver_linux64 (3)/chromedriver");
+		  System.setProperty("webdriver.chrome.driver",utils.Constants.chromeDriverPath);
 		  driver=new ChromeDriver();
 		  driver.manage().timeouts().implicitlyWait(20l, TimeUnit.SECONDS); 
 		  
 		  for (int i = 1; i < s.getRows(); i++) {
-		  driver.get("http://bataprod.erstaging.com/apiui/");
+		  driver.get("http://bataprod.erstaging.com/apiui");
 		  driver.manage().window().maximize();
 		  Select dropdown= new Select(driver.findElement(By.xpath("//*[@id='ddlSelectMethods']")));
 		  dropdown.selectByVisibleText("wsAssignTier");
